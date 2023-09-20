@@ -113,6 +113,6 @@ address {
 /* Add a horizontal line to separate sections */
 section:not(:last-of-type) {
     border-bottom: 1px solid #000000; /* Teal color for the line */
-    padding-bottom: 3px; /* Adjust the spacing between sections */
-    margin-bottom: 7px; /* Adjust the spacing between sections */
+    padding-bottom: 1px; /* Adjust the spacing between sections */
+    margin-bottom: 5px; /* Adjust the spacing between sections */
 }
