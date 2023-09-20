@@ -72,4 +72,22 @@ a:hover {
 /* Style list items */
 li {
     list-style: disc; /* Use disc bullets for list items */
-    margin-left: 10px; /* Further
+    margin-left: 10px; /* Further indented list items */
+}
+
+/* Style address elements within sections */
+address {
+    font-style: normal; /* Prevent italicization of address elements */
+    color: #333; /* Address text color */
+    font-size: 16px; /* Address font size */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0; /* Further reduced padding */
+    color: #fff; /* Text color for the footer */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the footer */
+    position: relative; /* Position the footer relative to the body */
+    z-index: 2; /* Ensure footer is above the background image */
+}
