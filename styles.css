@@ -25,7 +25,6 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 3px; /* Further reduced padding */
-    background-color: #66cccc; /* Teal color for the container */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
     margin-top: 1%;
@@ -45,28 +44,20 @@ header {
 section {
     margin: 3px 0; /* Further reduced margin */
     padding: 3px; /* Further reduced padding */
-    border: 1px solid #ddd;
-    background-color: #66cccc; /* Teal color for sections */
     position: relative; /* Position the sections relative to the body */
     z-index: 1; /* Ensure sections are above the background image */
-}
-/* CSS in styles.css */
-.section-divider {
-    border-bottom: 1px solid #000000; /* Teal color for the lines */
-    padding-bottom: 10px; /* Adjust the spacing between sections */
-    margin-bottom: 20px; /* Adjust the spacing between sections */
 }
 
 /* Style headings */
 h1, h2, h3 {
-    font-family: 'Tangerine', cursive; /* Replace 'CursiveFont' with your chosen creative font */
-    color: #ff00ff; /* Replace with your unique color code */
-    font-size: 19px; /* Further reduced font size */
+    font-family: 'Tangerine', cursive;
+    color: #ff00ff;
+    font-size: 19px;
 }
 
 /* Style links */
 a {
-    color: #0077cc; /* Link color */
+    color: #0077cc;
     text-decoration: none;
 }
 
@@ -77,21 +68,21 @@ a:hover {
 
 /* Style list items */
 li {
-    list-style: disc; /* Use disc bullets for list items */
-    margin-left: 10px; /* Further reduced left margin for list items */
-    font-size: 13px; /* Further reduced font size */
-    padding-left: 5px; /* Adjust the padding between the bullet and the text */
+    list-style: disc;
+    margin-left: 10px;
+    font-size: 13px;
+    padding-left: 5px;
 }
 
 /* Style the project links */
 #projects a {
-    color: #009900; /* Project link color */
-    font-size: 13px; /* Further reduced font size */
+    color: #009900;
+    font-size: 13px;
 }
 
 /* Style the project links on hover */
 #projects a:hover {
-    color: #006600; /* Project link color on hover */
+    color: #006600;
 }
 
 body, p, ul, li, address {
@@ -100,14 +91,14 @@ body, p, ul, li, address {
 }
 
 address {
-    font-family: 'Calibri', sans-serif; /* Use the Calibri font */
-    font-weight: bold; /* Apply bold weight */
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
     font-size: 13px;
 }
 
 #objective h2 {
-    font-family: 'Tangerine', cursive; /* Replace 'CursiveFont' with your chosen creative font */
-    color: #ff00ff; /* Replace with your unique color code */
+    font-family: 'Tangerine', cursive;
+    color: #ff00ff;
     font-size: 19px;
 }
 
@@ -117,9 +108,9 @@ address {
     font-size: 13px;
 }
 
-/* Add lines to separate sections */
-section {
-    border-bottom: 1px solid #000000; /* Teal color for the lines */
+/* Add a horizontal line to separate sections */
+section:not(:last-of-type) {
+    border-bottom: 1px solid #008080; /* Teal color for the line */
     padding-bottom: 10px; /* Adjust the spacing between sections */
     margin-bottom: 20px; /* Adjust the spacing between sections */
 }
