@@ -54,7 +54,7 @@ section {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     color: #ff00ff;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 /* Style links */
@@ -101,7 +101,7 @@ address {
 #objective h2 {
     font-family: 'Playfair Display', serif;
     color: #ff00ff;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 #objective p {
