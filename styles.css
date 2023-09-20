@@ -25,7 +25,7 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 3px; /* Further reduced padding */
-    background-color: #008080; /* Teal color for the container */
+    background-color: #66cccc; /* Teal color for the container */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
     margin-top: 1%;
@@ -46,13 +46,13 @@ section {
     margin: 3px 0; /* Further reduced margin */
     padding: 3px; /* Further reduced padding */
     border: 1px solid #ddd;
-    background-color: #008080; /* Teal color for sections */
+    background-color: #66cccc; /* Teal color for sections */
     position: relative; /* Position the sections relative to the body */
     z-index: 1; /* Ensure sections are above the background image */
 }
 /* CSS in styles.css */
 .section-divider {
-    border-bottom: 1px solid #008080; /* Teal color for the lines */
+    border-bottom: 1px solid #000000; /* Teal color for the lines */
     padding-bottom: 10px; /* Adjust the spacing between sections */
     margin-bottom: 20px; /* Adjust the spacing between sections */
 }
@@ -119,7 +119,7 @@ address {
 
 /* Add lines to separate sections */
 section {
-    border-bottom: 1px solid #008080; /* Teal color for the lines */
+    border-bottom: 1px solid #000000; /* Teal color for the lines */
     padding-bottom: 10px; /* Adjust the spacing between sections */
     margin-bottom: 20px; /* Adjust the spacing between sections */
 }
