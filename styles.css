@@ -50,6 +50,12 @@ section {
     position: relative; /* Position the sections relative to the body */
     z-index: 1; /* Ensure sections are above the background image */
 }
+/* CSS in styles.css */
+.section-divider {
+    border-bottom: 1px solid #008080; /* Teal color for the lines */
+    padding-bottom: 10px; /* Adjust the spacing between sections */
+    margin-bottom: 20px; /* Adjust the spacing between sections */
+}
 
 /* Style headings */
 h1, h2, h3 {
