@@ -25,6 +25,7 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 3px; /* Further reduced padding */
+    background-color: #66cccc;
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
     margin-top: 1%;
@@ -44,6 +45,7 @@ header {
 section {
     margin: 3px 0; /* Further reduced margin */
     padding: 3px; /* Further reduced padding */
+    background-color: #66cccc; /*delete latttttttttttttttttttttttttttttttttttttttttttttt
     position: relative; /* Position the sections relative to the body */
     z-index: 1; /* Ensure sections are above the background image */
 }
@@ -110,7 +112,7 @@ address {
 
 /* Add a horizontal line to separate sections */
 section:not(:last-of-type) {
-    border-bottom: 1px solid #008080; /* Teal color for the line */
+    border-bottom: 1px solid #000000; /* Teal color for the line */
     padding-bottom: 10px; /* Adjust the spacing between sections */
     margin-bottom: 20px; /* Adjust the spacing between sections */
 }
