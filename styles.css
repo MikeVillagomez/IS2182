@@ -52,7 +52,7 @@ section {
 
 /* Style headings */
 h1, h2, h3 {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Playfair Display', serif;
     color: #ff00ff;
     font-size: 19px;
 }
@@ -99,7 +99,7 @@ address {
 }
 
 #objective h2 {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Playfair Display', serif;
     color: #ff00ff;
     font-size: 19px;
 }
