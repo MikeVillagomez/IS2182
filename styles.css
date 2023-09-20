@@ -1,0 +1,114 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the entire body with a background color */
+body {
+    background-color: #66cccc; /* Background color for the entire resume */
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the content within the resume */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 3px;
+    background-color: #fff; /* Background color for the content */
+    position: relative;
+    z-index: 1;
+    margin-top: 1%;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 2;
+}
+
+/* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
+section {
+    margin: 3px 0;
+    padding: 3px;
+    background-color: #fff; /* Background color for sections */
+    position: relative;
+    z-index: 1;
+}
+
+/* Style headings */
+h1, h2, h3 {
+    font-family: 'Tangerine', cursive;
+    color: #ff00ff;
+    font-size: 19px;
+}
+
+/* Style links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+/* Style links on hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style list items */
+li {
+    list-style: disc;
+    margin-left: 10px;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+/* Style the project links */
+#projects a {
+    color: #009900;
+    font-size: 13px;
+}
+
+/* Style the project links on hover */
+#projects a:hover {
+    color: #006600;
+}
+
+body, p, ul, li, address {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
+
+address {
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#objective h2 {
+    font-family: 'Tangerine', cursive;
+    color: #ff00ff;
+    font-size: 19px;
+}
+
+#objective p {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Add a simple gray line to separate sections */
+section:not(:last-of-type) {
+    border-bottom: 1px solid #ccc;
+}
