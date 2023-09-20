@@ -6,7 +6,6 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply styles to the entire body with a background color */
 body {
-    background-color: #66cccc; /* Background color for the entire resume */
     font-family: 'Calibri', sans-serif;
     margin: 0;
     padding: 0;
@@ -20,10 +19,11 @@ body {
 
 /* Style the content within the resume */
 .container {
-    max-width: 800px;
+    max-width: 800px; /* Adjust the maximum width to fit the page */
+    width: 95%; /* Adjust the width to make it smaller */
     margin: auto;
     padding: 3px;
-    background-color: #fff; /* Background color for the content */
+    background-color: #66cccc; /* Background color for the content */
     position: relative;
     z-index: 1;
     margin-top: 1%;
